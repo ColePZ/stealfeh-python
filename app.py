@@ -18,4 +18,4 @@ async def test(ctx):
   await bot.say("Working, Ready for use")
   
   
-bot.run("Token")
+bot.run("Token-Here")
