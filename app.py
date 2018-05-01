@@ -1,5 +1,7 @@
 
 
+
+
 import discord
 from discord.ext import commands
 
@@ -45,8 +47,13 @@ async def helpline(ctx):
   await bot.say("Go else where if u want help im just called this")
   
   
-@bot.comand(pass_context=True)
+@bot.command(pass_context=True)
 async def lol(ctx):
   await bot.say("lol")
+  
+  
+@bot.command(pass_context=True)
+async def hello(ctx):
+  await bot.say(":wave:")
   
 bot.run("Token-Here")
