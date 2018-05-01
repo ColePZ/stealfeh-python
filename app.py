@@ -28,4 +28,4 @@ async def dankmemes(ctx):
   await bot.say("Shut up")
   
   
-bot.run("Token-Here")
+bot.run("Token-Here r")
