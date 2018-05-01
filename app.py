@@ -1,4 +1,5 @@
 
+
 import discord
 from discord.ext import commands
 
@@ -39,5 +40,13 @@ async def devinfo(ctx):
   await bot.say("Team CC is a programming group organized by ColePZ and cat939 and they create different projects with the help of many peoples")
 
   
+@bot.command(pass_context=True)
+async def helpline(ctx):
+  await bot.say("Go else where if u want help im just called this")
+  
+  
+@bot.comand(pass_context=True)
+async def lol(ctx):
+  await bot.say("lol")
   
 bot.run("Token-Here")
