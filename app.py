@@ -1,5 +1,5 @@
 
-
+ 
 
 
 import discord
@@ -54,6 +54,6 @@ async def lol(ctx):
   
 @bot.command(pass_context=True)
 async def hello(ctx):
-  await bot.say(":wave:")
+  await bot.say(":wave: Hello There")
   
 bot.run("Token-Here")
